@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo_container">
+            <a href="home.html"><img src="./images/logo.png" width="80" alt="Logo"></a>
+        </div>
+        <div class="nav_elements">
+            <span class="nav_element" id="home"  onClick="{location.href='home.html'}"><i class="fa fa-home" ></i></span>
+            <span class="nav_element" id="videos" onClick="{location.href='videos.html'}"><i class="fa fa-play-circle"></i></span>
+            <span class="nav_element" id="profile" style="background-color: #3f3f3f;" onClick="{location.href='profile.html'}"><i class="fa fa-user"></i></span>
+        </div>
+    </nav>
+    <div class="profile_container_1">
+        <div class="profile_container_11">
+            
+            <div style="font-size: 60px;font-weight: 500;">Rishabh Patil</div>
+            <div style="font-size: 20px;"><span style="font-size: 70px; color:#1569ca;font-weight: 600;">34</span> &nbspSubscribers</div>
+            <div class="profile_container_111">
+            <button id="login_button" onClick="{location.href='./login.html'}">Logout</button>
+            <button id="signup_button" onClick="{location.href='./signup.html'}">Signup</button>
+        </div>
+        </div> 
+
+        <img id="profile_page_image" src = "./images/hike.svg" width="450" alt="svg"/>
+    </div>
+    
+</body>
+</html>
